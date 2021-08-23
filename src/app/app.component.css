@@ -1,6 +1,8 @@
 h3 {
-    color: blue;
+    color: black;
+    border: 1px solid skyblue;
+    padding: 5px;
 }
 .row {
-    background-color: beige;
+    /* background-color: lemonchiffon; */
 }

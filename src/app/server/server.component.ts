@@ -7,4 +7,11 @@ import { Component } from "@angular/core";
 })
 export class ServerComponent {
 
+    serverId: number = 1553;
+    status: string = 'Offline';
+    binding = 'test input'
+
+    serverStatus() {
+        return this.status;
+    }
 }

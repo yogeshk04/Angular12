@@ -1,1 +1,6 @@
-<p>The server component</p>
+<p>Serer with ID {{ serverId }} is {{ serverStatus() }}</p>
+<br>
+<label>User input</label>
+<input type="text" class="form-control" [(ngModel)]="binding">
+<br>
+<p [innerText]="binding"></p>
