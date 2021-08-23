@@ -1,6 +1,10 @@
-<p>Serer with ID {{ serverId }} is {{ serverStatus() }}</p>
-<br>
+<p [ngStyle]="{backgroundColor: getColor()}"
+ngClass>
+{{ serverId }} with ID {{ serverStatus() }}</p>
+<!-- <br>
 <label>User input</label>
 <input type="text" class="form-control" [(ngModel)]="binding">
 <br>
-<p [innerText]="binding"></p>
+<p [innerText]="binding"></p> -->
+<app-assmt3></app-assmt3>
+<hr>

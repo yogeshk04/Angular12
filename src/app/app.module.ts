@@ -8,6 +8,7 @@ import { SuccessComponent } from './success/success.component';
 import { TryComponent } from './try/try.component';
 import { ServersComponent } from './servers/servers.component';
 import { FormsModule } from '@angular/forms';
+import { Assmt3Component } from './assmt3/assmt3.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { FormsModule } from '@angular/forms';
     WarningComponent,
     SuccessComponent,
     TryComponent,
-    ServersComponent
+    ServersComponent,
+    Assmt3Component
   ],
   imports: [
     BrowserModule,

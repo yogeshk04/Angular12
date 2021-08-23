@@ -11,7 +11,15 @@ export class ServerComponent {
     status: string = 'Offline';
     binding = 'test input'
 
+    constructor() {
+        this.status = Math.random() > 0.5 ? 'online' : 'offline';
+    } 
+
     serverStatus() {
         return this.status;
+    }
+
+    getColor() {
+        return this.status === 'online' ? 'green' : 'red';
     }
 }
